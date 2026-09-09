@@ -90,9 +90,39 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9d3b2736cc7bfc9bc8b8dbb650fd59fbbb5ea4ab",
     "commitName": "feat: aplicar descuento de 3% desde 1000",
     "commitTimestamp": 1788968856370,
     "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788968962420,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788969015803,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788969051916,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento de 5% desde 3000",
+    "commitTimestamp": 1788969062668,
+    "testId": 4
   }
 ]
