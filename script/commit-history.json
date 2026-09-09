@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9638c552a5dcef2845468b64f8b552e4e2409c0a",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T15:59:32.000Z",
       "message": "feat: aplicar descuento de 10% desde 10000",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/9638c552a5dcef2845468b64f8b552e4e2409c0a"
     },
     "stats": {
       "total": 11,
@@ -129,6 +129,25 @@
     },
     "coverage": 93.33,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T16:01:46.000Z",
+      "message": "feat: aplicar descuento de 15% desde 30000",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 94.12,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

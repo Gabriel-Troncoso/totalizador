@@ -14,6 +14,9 @@ class Totalizador {
     }
 
     calcularDescuento(total) {
+        if (total >= 30000) {
+            return Number((total * 0.15).toFixed(2));
+        }
         if(total>=10000){
             return total * 0.1;
         }
