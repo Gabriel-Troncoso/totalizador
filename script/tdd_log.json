@@ -24,9 +24,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2caeec13af78ee57b0825a98566e84301044c0c0",
     "commitName": "feat: calcular precio bruto de la compra",
     "commitTimestamp": 1788966894998,
     "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 1,
+    "numTotalTests": 3,
+    "timestamp": 1788967056880,
+    "success": false,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788967142454,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar error cuando la cantidad es cero o negativa",
+    "commitTimestamp": 1788967730448,
+    "testId": 1
   }
 ]

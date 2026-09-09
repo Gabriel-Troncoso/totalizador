@@ -9,5 +9,13 @@ describe("Totalizador", () => {
         expect(totalizador.calcularPrecioBruto(2, 100)).toEqual(200);
 
     });
+    
+    it("Deberia mostrar error cuando la cantidad es cero", () => {
 
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularPrecioBruto(0, 100))
+        .toEqual("Cantidad invalida");
+
+});
 });
