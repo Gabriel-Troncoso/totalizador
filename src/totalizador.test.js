@@ -399,4 +399,14 @@ describe("Totalizador", () => {
     });
 
     });
+
+    it("Deberia rechazar una cantidad no numerica", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(
+        totalizador.calcularPrecioBruto("abc", 100)
+    ).toEqual("Cantidad invalida");
+
+    });
 });

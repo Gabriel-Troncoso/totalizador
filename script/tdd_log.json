@@ -1054,9 +1054,31 @@
     "testId": 41
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2f4e22a8ba2936788b6738a55a29f903d673afbf",
     "commitName": "feat: mostrar detalle completo del calculo de compra",
     "commitTimestamp": 1788994965360,
     "testId": 41
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 1,
+    "numTotalTests": 45,
+    "timestamp": 1788995011554,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1788995069340,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: rechazar cantidad no numerica",
+    "commitTimestamp": 1788995078641,
+    "testId": 42
   }
 ]

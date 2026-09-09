@@ -1,7 +1,9 @@
 class Totalizador {
 
     calcularPrecioBruto(cantidad, precio) {
-
+        if (typeof cantidad !== "number") {
+            return "Cantidad invalida";
+        }   
         if (cantidad <= 0) {
             return "Cantidad invalida";
         }
@@ -300,6 +302,8 @@ class Totalizador {
         totalFinal
     };
     }
+
+    
 }
 
 export default Totalizador;

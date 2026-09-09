@@ -779,12 +779,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "2f4e22a8ba2936788b6738a55a29f903d673afbf",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T23:02:43.000Z",
       "message": "feat: mostrar detalle completo del calculo de compra",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/2f4e22a8ba2936788b6738a55a29f903d673afbf"
     },
     "stats": {
       "total": 88,
@@ -794,6 +794,25 @@
     },
     "coverage": 95.33,
     "test_count": 44,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T23:04:36.000Z",
+      "message": "feat: rechazar cantidad no numerica",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 95.41,
+    "test_count": 45,
     "failed_tests": 0,
     "conclusion": "success"
   }
