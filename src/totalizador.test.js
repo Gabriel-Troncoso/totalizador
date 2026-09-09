@@ -419,4 +419,14 @@ describe("Totalizador", () => {
     ).toEqual("Precio invalido");
 
     });
+
+    it("Deberia aplicar 0% de descuento cuando el precio bruto es menor a 1000", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(
+        totalizador.calcularDescuento(999)
+    ).toEqual(0);
+
+    });
 });

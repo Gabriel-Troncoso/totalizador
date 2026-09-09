@@ -817,12 +817,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9a344ee6c134a3afe7f237040de172aec2bd4334",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T23:07:29.000Z",
       "message": "feat: rechazar precio no numerico",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/9a344ee6c134a3afe7f237040de172aec2bd4334"
     },
     "stats": {
       "total": 14,
@@ -832,6 +832,25 @@
     },
     "coverage": 95.5,
     "test_count": 46,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T23:15:07.000Z",
+      "message": "test: verificar descuento cero para compras menores a 1000",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 96.4,
+    "test_count": 47,
     "failed_tests": 0,
     "conclusion": "success"
   }

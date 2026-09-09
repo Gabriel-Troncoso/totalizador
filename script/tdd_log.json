@@ -1098,9 +1098,47 @@
     "testId": 43
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9a344ee6c134a3afe7f237040de172aec2bd4334",
     "commitName": "feat: rechazar precio no numerico",
     "commitTimestamp": 1788995251686,
     "testId": 43
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1788995282115,
+    "success": true,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1788995305659,
+    "success": true,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1788995330368,
+    "success": false,
+    "testId": 44
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1788995698351,
+    "success": true,
+    "testId": 44
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: verificar descuento cero para compras menores a 1000",
+    "commitTimestamp": 1788995709979,
+    "testId": 44
   }
 ]
