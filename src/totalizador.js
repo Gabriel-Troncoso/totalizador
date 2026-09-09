@@ -168,6 +168,18 @@ class Totalizador {
 
     return 0;
     }
+    
+    calcularPrecioNeto(total, categoria = "Varios") {
+
+    let descuentoBase = this.calcularDescuento(total);
+
+    let descuentoCategoria =
+        this.calcularDescuentoCategoria(total, categoria);
+
+    return Number(
+        (total - descuentoBase - descuentoCategoria).toFixed(2)
+    );
+    }
 }
 
 export default Totalizador;

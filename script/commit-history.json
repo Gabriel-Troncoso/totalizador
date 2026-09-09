@@ -684,12 +684,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c7e203136d96a033be723f87ac6ffd9535cd226e",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T22:42:02.000Z",
       "message": "feat: aplicar descuento especial de 200 para cliente Especial",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/c7e203136d96a033be723f87ac6ffd9535cd226e"
     },
     "stats": {
       "total": 18,
@@ -699,6 +699,25 @@
     },
     "coverage": 92.5,
     "test_count": 39,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T22:48:50.000Z",
+      "message": "feat: calcular precio neto aplicando descuentos",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 21,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.77,
+    "test_count": 40,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -920,9 +920,31 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c7e203136d96a033be723f87ac6ffd9535cd226e",
     "commitName": "feat: aplicar descuento especial de 200 para cliente Especial",
     "commitTimestamp": 1788993724726,
     "testId": 36
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 1,
+    "numTotalTests": 40,
+    "timestamp": 1788994014950,
+    "success": false,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1788994057878,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio neto aplicando descuentos",
+    "commitTimestamp": 1788994132241,
+    "testId": 37
   }
 ]

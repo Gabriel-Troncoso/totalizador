@@ -324,4 +324,13 @@ describe("Totalizador", () => {
     ).toEqual(200);
 
     });
+    it("Deberia calcular el precio neto aplicando descuento base y descuento por categoria", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(
+        totalizador.calcularPrecioNeto(4000, "Alimentos")
+    ).toEqual(3720);
+
+    });
 });
