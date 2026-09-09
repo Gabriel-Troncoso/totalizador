@@ -942,9 +942,31 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ad9fa771b0ea342b7d55759d575e4e2d88250043",
     "commitName": "feat: calcular precio neto aplicando descuentos",
     "commitTimestamp": 1788994132241,
     "testId": 37
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 1,
+    "numTotalTests": 41,
+    "timestamp": 1788994163476,
+    "success": false,
+    "testId": 38
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 0,
+    "numTotalTests": 41,
+    "timestamp": 1788994180876,
+    "success": true,
+    "testId": 38
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto total por estado y categoria",
+    "commitTimestamp": 1788994192740,
+    "testId": 38
   }
 ]

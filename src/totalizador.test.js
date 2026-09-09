@@ -333,4 +333,14 @@ describe("Totalizador", () => {
     ).toEqual(3720);
 
     });
+
+    it("Deberia calcular impuesto total sumando impuesto de estado y categoria", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(
+        totalizador.calcularImpuestoTotal(1000, "CA", "Electronicos")
+    ).toEqual(122.5);
+
+    });
 });

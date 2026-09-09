@@ -703,12 +703,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ad9fa771b0ea342b7d55759d575e4e2d88250043",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T22:48:50.000Z",
       "message": "feat: calcular precio neto aplicando descuentos",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/ad9fa771b0ea342b7d55759d575e4e2d88250043"
     },
     "stats": {
       "total": 21,
@@ -718,6 +718,25 @@
     },
     "coverage": 92.77,
     "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T22:49:50.000Z",
+      "message": "feat: calcular impuesto total por estado y categoria",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 25,
+      "additions": 24,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.02,
+    "test_count": 41,
     "failed_tests": 0,
     "conclusion": "success"
   }

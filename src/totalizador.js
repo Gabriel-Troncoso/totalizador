@@ -168,7 +168,7 @@ class Totalizador {
 
     return 0;
     }
-    
+
     calcularPrecioNeto(total, categoria = "Varios") {
 
     let descuentoBase = this.calcularDescuento(total);
@@ -180,6 +180,19 @@ class Totalizador {
         (total - descuentoBase - descuentoCategoria).toFixed(2)
     );
     }
+
+    calcularImpuestoTotal(precioNeto, estado, categoria = "Varios") {
+
+    let impuestoEstado =
+        this.calcularImpuesto(precioNeto, estado);
+
+    let impuestoCategoria =
+        this.calcularImpuestoCategoria(precioNeto, categoria);
+
+    return Number(
+        (impuestoEstado + impuestoCategoria).toFixed(2)
+    );
+}
 }
 
 export default Totalizador;
