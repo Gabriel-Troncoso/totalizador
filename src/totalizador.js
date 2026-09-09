@@ -88,14 +88,17 @@ class Totalizador {
     }
     return 0;
     }
-    
+
     calcularCostoEnvio(peso) {
 
     if (peso >= 0 && peso <= 10) {
         return 0;
     }
+    if (peso >= 11 && peso <= 20) {
+        return 3.5;
+    }
 
-}
+    }
 }
 
 export default Totalizador;

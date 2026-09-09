@@ -184,12 +184,21 @@ describe("Totalizador", () => {
         .toEqual(20);
 
     });
+
     it("Deberia aplicar costo de envio 0 para peso entre 0 y 10", () => {
 
     let totalizador = new Totalizador();
 
     expect(totalizador.calcularCostoEnvio(5))
         .toEqual(0);
+
+    });
+    it("Deberia aplicar costo de envio 3.5 para peso entre 11 y 20", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularCostoEnvio(15))
+        .toEqual(3.5);
 
     });
 });
