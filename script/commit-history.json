@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e80a0fb00c31ccd5ff3cc078e31d59019a6671e4",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T17:05:15.000Z",
       "message": "feat: aplicar beneficios adicionales de Electronicos",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/e80a0fb00c31ccd5ff3cc078e31d59019a6671e4"
     },
     "stats": {
       "total": 26,
@@ -376,6 +376,25 @@
     },
     "coverage": 90.91,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T17:07:28.000Z",
+      "message": "feat: aplicar impuesto adicional de Vestimenta",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 12,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 91.3,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }

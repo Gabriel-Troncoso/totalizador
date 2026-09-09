@@ -83,7 +83,9 @@ class Totalizador {
     if (categoria === "Electronicos") {
         return Number((total * 0.04).toFixed(2));
     }
-
+    if (categoria === "Vestimenta") {
+        return Number((total * 0.02).toFixed(2));
+    }
     return 0;
     }
 }

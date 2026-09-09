@@ -538,9 +538,31 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e80a0fb00c31ccd5ff3cc078e31d59019a6671e4",
     "commitName": "feat: aplicar beneficios adicionales de Electronicos",
     "commitTimestamp": 1788973516099,
     "testId": 19
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1788973609602,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1788973640997,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto adicional de Vestimenta",
+    "commitTimestamp": 1788973649683,
+    "testId": 20
   }
 ]
