@@ -126,9 +126,13 @@ class Totalizador {
 
     return cantidad * costoPorUnidad;
     }
-    
+
     calcularDescuentoEnvio(costoEnvio, tipoCliente = "Normal") {
 
+    if (tipoCliente === "Recurrente") {
+        return Number((costoEnvio * 0.005).toFixed(2));
+    }
+    
     if (tipoCliente === "Normal") {
         return 0;
     }

@@ -589,12 +589,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "564681a8d785cc3b5258c83e153f00a04653116f",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T22:31:56.000Z",
       "message": "feat: usar cliente Normal por defecto en descuento de envio",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/564681a8d785cc3b5258c83e153f00a04653116f"
     },
     "stats": {
       "total": 18,
@@ -604,6 +604,25 @@
     },
     "coverage": 92.75,
     "test_count": 34,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T22:32:57.000Z",
+      "message": "feat: aplicar descuento de envio para cliente Recurrente",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 14,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.96,
+    "test_count": 35,
     "failed_tests": 0,
     "conclusion": "success"
   }
