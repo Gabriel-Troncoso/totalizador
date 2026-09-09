@@ -744,9 +744,31 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5651ed4e3bf50eea77a9ad19c7beb2dfad89f76c",
     "commitName": "feat: calcular costo total de envio segun cantidad",
     "commitTimestamp": 1788992707529,
     "testId": 28
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1788992752353,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1788992804514,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: rechazar peso volumetrico negativo",
+    "commitTimestamp": 1788992817046,
+    "testId": 29
   }
 ]

@@ -532,12 +532,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5651ed4e3bf50eea77a9ad19c7beb2dfad89f76c",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T22:25:05.000Z",
       "message": "feat: calcular costo total de envio segun cantidad",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/5651ed4e3bf50eea77a9ad19c7beb2dfad89f76c"
     },
     "stats": {
       "total": 15,
@@ -547,6 +547,25 @@
     },
     "coverage": 93.55,
     "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T22:26:55.000Z",
+      "message": "feat: rechazar peso volumetrico negativo",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.75,
+    "test_count": 32,
     "failed_tests": 0,
     "conclusion": "success"
   }

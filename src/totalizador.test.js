@@ -242,13 +242,22 @@ describe("Totalizador", () => {
         .toEqual(9);
 
     });
-    
+
     it("Deberia calcular el costo total de envio segun la cantidad", () => {
 
     let totalizador = new Totalizador();
 
     expect(totalizador.calcularEnvioTotal(3, 30))
         .toEqual(15);
+
+    });
+    
+    it("Deberia rechazar peso volumetrico negativo", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularCostoEnvio(-5))
+        .toEqual("Peso invalido");
 
     });
 });
