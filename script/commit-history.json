@@ -551,12 +551,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5b3f3a8eaf95e85b3bee57a8efd946d1862076bb",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T22:26:55.000Z",
       "message": "feat: rechazar peso volumetrico negativo",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/5b3f3a8eaf95e85b3bee57a8efd946d1862076bb"
     },
     "stats": {
       "total": 14,
@@ -566,6 +566,25 @@
     },
     "coverage": 93.75,
     "test_count": 32,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T22:28:24.000Z",
+      "message": "feat: rechazar peso volumetrico no numerico",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 13,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.94,
+    "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"
   }

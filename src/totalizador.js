@@ -91,6 +91,9 @@ class Totalizador {
 
     calcularCostoEnvio(peso) {
 
+    if (typeof peso !== "number") {
+        return "Peso invalido";
+    }
     if (peso < 0) {
         return "Peso invalido";
     }

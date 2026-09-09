@@ -251,12 +251,21 @@ describe("Totalizador", () => {
         .toEqual(15);
 
     });
-    
+
     it("Deberia rechazar peso volumetrico negativo", () => {
 
     let totalizador = new Totalizador();
 
     expect(totalizador.calcularCostoEnvio(-5))
+        .toEqual("Peso invalido");
+
+    });
+
+    it("Deberia rechazar peso volumetrico no numerico", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularCostoEnvio("abc"))
         .toEqual("Peso invalido");
 
     });

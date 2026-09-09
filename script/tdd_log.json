@@ -766,9 +766,31 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5b3f3a8eaf95e85b3bee57a8efd946d1862076bb",
     "commitName": "feat: rechazar peso volumetrico negativo",
     "commitTimestamp": 1788992817046,
     "testId": 29
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 1,
+    "numTotalTests": 33,
+    "timestamp": 1788992856731,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1788992891351,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: rechazar peso volumetrico no numerico",
+    "commitTimestamp": 1788992906605,
+    "testId": 30
   }
 ]
