@@ -560,9 +560,31 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7cf5fc13512e4f86ffad9f331437d5232320c8dd",
     "commitName": "feat: aplicar impuesto adicional de Vestimenta",
     "commitTimestamp": 1788973649683,
     "testId": 20
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1788985715014,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1788985807647,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar envio gratuito para peso de 0 a 10",
+    "commitTimestamp": 1788985828227,
+    "testId": 21
   }
 ]

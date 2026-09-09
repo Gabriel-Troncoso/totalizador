@@ -175,13 +175,21 @@ describe("Totalizador", () => {
         .toEqual(10);
 
     });
-    
+
     it("Deberia aplicar 2% de impuesto adicional para Vestimenta", () => {
 
     let totalizador = new Totalizador();
 
     expect(totalizador.calcularImpuestoCategoria(1000, "Vestimenta"))
         .toEqual(20);
+
+    });
+    it("Deberia aplicar costo de envio 0 para peso entre 0 y 10", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularCostoEnvio(5))
+        .toEqual(0);
 
     });
 });

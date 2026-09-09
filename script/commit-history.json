@@ -380,12 +380,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7cf5fc13512e4f86ffad9f331437d5232320c8dd",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T17:07:28.000Z",
       "message": "feat: aplicar impuesto adicional de Vestimenta",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/7cf5fc13512e4f86ffad9f331437d5232320c8dd"
     },
     "stats": {
       "total": 13,
@@ -395,6 +395,25 @@
     },
     "coverage": 91.3,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T20:30:24.000Z",
+      "message": "feat: aplicar envio gratuito para peso de 0 a 10",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 17,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 91.67,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }
