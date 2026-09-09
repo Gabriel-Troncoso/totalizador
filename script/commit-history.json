@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "cf922fa212fa6201f4dbab9be701e3fd14ada5f2",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T16:41:51.000Z",
       "message": "feat: aplicar descuento adicional de Alimentos",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/cf922fa212fa6201f4dbab9be701e3fd14ada5f2"
     },
     "stats": {
       "total": 2,
@@ -300,6 +300,25 @@
     },
     "coverage": 90.91,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T16:45:30.000Z",
+      "message": "feat: aplicar impuesto adicional de Bebidas alcoholicas",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 30,
+      "additions": 24,
+      "deletions": 6,
+      "date": "2026-09-09"
+    },
+    "coverage": 88.89,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }

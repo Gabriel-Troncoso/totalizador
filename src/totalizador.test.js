@@ -124,12 +124,22 @@ describe("Totalizador", () => {
         .toEqual(0);
 
     });
+
     it("Deberia aplicar 2% de descuento adicional para Alimentos", () => {
 
     let totalizador = new Totalizador();
 
     expect(totalizador.calcularDescuentoCategoria(1000, "Alimentos"))
         .toEqual(20);
+
+    });
+    
+    it("Deberia aplicar 7% de impuesto adicional para Bebidas alcoholicas", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularImpuestoCategoria(1000, "Bebidas alcoholicas"))
+        .toEqual(70);
 
 });
 });

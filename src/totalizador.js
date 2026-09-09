@@ -55,16 +55,24 @@ class Totalizador {
     }
     calcularDescuentoCategoria(total, categoria = "Varios") {
 
-    if (categoria === "Alimentos") {
-        return Number((total * 0.02).toFixed(2));
-    }
-    if (categoria === "Varios") {
+        if (categoria === "Alimentos") {
+            return Number((total * 0.02).toFixed(2));
+        }
+
+        if (categoria === "Varios") {
+            return 0;
+        }
+
         return 0;
     }
-    
+    calcularImpuestoCategoria(total, categoria = "Varios") {
+
+    if (categoria === "Bebidas alcoholicas") {
+        return Number((total * 0.07).toFixed(2));
+    }
 
     return 0;
-}
+    }
 }
 
 export default Totalizador;

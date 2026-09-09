@@ -442,9 +442,31 @@
     "testId": 15
   },
   {
-    "commitId": "HEAD",
+    "commitId": "cf922fa212fa6201f4dbab9be701e3fd14ada5f2",
     "commitName": "feat: aplicar descuento adicional de Alimentos",
     "commitTimestamp": 1788972112116,
     "testId": 15
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1788972196105,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788972320737,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto adicional de Bebidas alcoholicas",
+    "commitTimestamp": 1788972332038,
+    "testId": 16
   }
 ]
