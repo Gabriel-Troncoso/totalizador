@@ -1164,9 +1164,39 @@
     "testId": 46
   },
   {
-    "commitId": "HEAD",
+    "commitId": "268ea4a9d7be8d6f0c0759bf292fb54fde2582eb",
     "commitName": "test: verificar rechazo de precio negativo",
     "commitTimestamp": 1788996017171,
     "testId": 46
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 1,
+    "numTotalTests": 50,
+    "timestamp": 1788996048913,
+    "success": false,
+    "testId": 47
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 0,
+    "numTotalTests": 50,
+    "timestamp": 1788996090698,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "numPassedTests": 50,
+    "failedTests": 0,
+    "numTotalTests": 50,
+    "timestamp": 1788996099806,
+    "success": true,
+    "testId": 47
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: propagar error de peso invalido en envio total",
+    "commitTimestamp": 1788996106621,
+    "testId": 47
   }
 ]

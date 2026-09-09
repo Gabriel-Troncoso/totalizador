@@ -449,4 +449,14 @@ describe("Totalizador", () => {
     ).toEqual("Precio invalido");
 
     });
+
+    it("Deberia rechazar el calculo de envio total cuando el peso es invalido", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(
+        totalizador.calcularEnvioTotal(3, "abc")
+    ).toEqual("Peso invalido");
+
+    });
 });

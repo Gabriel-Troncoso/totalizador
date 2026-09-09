@@ -874,12 +874,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "268ea4a9d7be8d6f0c0759bf292fb54fde2582eb",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T23:20:14.000Z",
       "message": "test: verificar rechazo de precio negativo",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/268ea4a9d7be8d6f0c0759bf292fb54fde2582eb"
     },
     "stats": {
       "total": 12,
@@ -889,6 +889,25 @@
     },
     "coverage": 96.4,
     "test_count": 49,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T23:21:44.000Z",
+      "message": "feat: propagar error de peso invalido en envio total",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 96.46,
+    "test_count": 50,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -130,6 +130,10 @@ class Totalizador {
 
     let costoPorUnidad = this.calcularCostoEnvio(peso);
 
+    if (costoPorUnidad === "Peso invalido") {
+        return "Peso invalido";
+    }
+
     return cantidad * costoPorUnidad;
     }
 
