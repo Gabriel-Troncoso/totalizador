@@ -241,6 +241,65 @@ class Totalizador {
         descuentoEspecial
     );
     }
+
+    obtenerDetalleCompra(cantidad, precio, estado, categoria, peso, tipoCliente) {
+
+    let precioBruto =
+        this.calcularPrecioBruto(cantidad, precio);
+
+    let descuentoBase =
+        this.calcularDescuento(precioBruto);
+
+    let descuentoCategoria =
+        this.calcularDescuentoCategoria(precioBruto, categoria);
+
+    let precioNeto =
+        this.calcularPrecioNeto(precioBruto, categoria);
+
+    let impuestoEstado =
+        this.calcularImpuesto(precioNeto, estado);
+
+    let impuestoCategoria =
+        this.calcularImpuestoCategoria(precioNeto, categoria);
+
+    let envioTotal =
+        this.calcularEnvioTotal(cantidad, peso);
+
+    let descuentoEnvio =
+        this.calcularDescuentoEnvio(envioTotal, tipoCliente);
+
+    let envioFinal =
+        envioTotal - descuentoEnvio;
+
+    let descuentoEspecial =
+        this.calcularDescuentoEspecial(
+            precioNeto,
+            tipoCliente,
+            categoria
+        );
+
+    let totalFinal =
+        this.calcularTotalFinal(
+            precioNeto,
+            impuestoEstado + impuestoCategoria,
+            envioFinal,
+            descuentoEspecial
+        );
+
+    return {
+        precioBruto,
+        descuentoBase,
+        descuentoCategoria,
+        precioNeto,
+        impuestoEstado,
+        impuestoCategoria,
+        envioTotal,
+        descuentoEnvio,
+        envioFinal,
+        descuentoEspecial,
+        totalFinal
+    };
+    }
 }
 
 export default Totalizador;

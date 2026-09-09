@@ -1032,9 +1032,31 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1251807630acd61856e988abbaaad63c015a4d43",
     "commitName": "feat: integrar calculo completo de la compra",
     "commitTimestamp": 1788994889207,
     "testId": 40
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 1,
+    "numTotalTests": 44,
+    "timestamp": 1788994926008,
+    "success": false,
+    "testId": 41
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 0,
+    "numTotalTests": 44,
+    "timestamp": 1788994955244,
+    "success": true,
+    "testId": 41
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: mostrar detalle completo del calculo de compra",
+    "commitTimestamp": 1788994965360,
+    "testId": 41
   }
 ]

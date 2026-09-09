@@ -370,4 +370,33 @@ describe("Totalizador", () => {
     ).toEqual(3976.65);
 
     });
+
+    it("Deberia mostrar el detalle completo de una compra", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(
+        totalizador.obtenerDetalleCompra(
+            10,
+            400,
+            "CA",
+            "Alimentos",
+            30,
+            "Recurrente"
+        )
+    ).toEqual({
+        precioBruto: 4000,
+        descuentoBase: 200,
+        descuentoCategoria: 80,
+        precioNeto: 3720,
+        impuestoEstado: 306.9,
+        impuestoCategoria: 0,
+        envioTotal: 50,
+        descuentoEnvio: 0.25,
+        envioFinal: 49.75,
+        descuentoEspecial: 100,
+        totalFinal: 3976.65
+    });
+
+    });
 });
