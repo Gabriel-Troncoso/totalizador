@@ -137,13 +137,26 @@ class Totalizador {
     if (tipoCliente === "Especial") {
         return Number((costoEnvio * 0.015).toFixed(2));
     }
-    
+
     if (tipoCliente === "Recurrente") {
         return Number((costoEnvio * 0.005).toFixed(2));
     }
 
     if (tipoCliente === "Normal") {
         return 0;
+    }
+
+    return 0;
+    }
+
+    calcularDescuentoEspecial(precioNeto, tipoCliente, categoria) {
+
+    if (
+        tipoCliente === "Recurrente" &&
+        precioNeto > 3000 &&
+        categoria === "Alimentos"
+    ) {
+        return 100;
     }
 
     return 0;

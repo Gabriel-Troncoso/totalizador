@@ -304,4 +304,13 @@ describe("Totalizador", () => {
         .toEqual(1.5);
 
     });
+    it("Deberia aplicar descuento fijo de 100 para cliente Recurrente con Alimentos y precio neto mayor a 3000", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(
+        totalizador.calcularDescuentoEspecial(3500, "Recurrente", "Alimentos")
+    ).toEqual(100);
+
+    });
 });

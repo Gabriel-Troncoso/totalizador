@@ -646,12 +646,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e9a4e61f4992f0bbca598838ff47e8e70112a44d",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T22:35:46.000Z",
       "message": "feat: aplicar descuento de envio para cliente Especial",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/e9a4e61f4992f0bbca598838ff47e8e70112a44d"
     },
     "stats": {
       "total": 14,
@@ -661,6 +661,25 @@
     },
     "coverage": 93.33,
     "test_count": 37,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T22:40:34.000Z",
+      "message": "feat: aplicar descuento especial de 100 para cliente Recurrente",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 24,
+      "additions": 23,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.31,
+    "test_count": 38,
     "failed_tests": 0,
     "conclusion": "success"
   }
