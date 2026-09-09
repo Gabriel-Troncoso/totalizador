@@ -464,9 +464,31 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ff25f7410cfb4cb30c9fd41957f1a681ff26a01a",
     "commitName": "feat: aplicar impuesto adicional de Bebidas alcoholicas",
     "commitTimestamp": 1788972332038,
     "testId": 16
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788972391821,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788972457799,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento adicional de Material de escritorio",
+    "commitTimestamp": 1788972468820,
+    "testId": 17
   }
 ]

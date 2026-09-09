@@ -59,6 +59,10 @@ class Totalizador {
             return Number((total * 0.02).toFixed(2));
         }
 
+        if (categoria === "Material de escritorio") {
+            return Number((total * 0.015).toFixed(2));
+        }
+
         if (categoria === "Varios") {
             return 0;
         }

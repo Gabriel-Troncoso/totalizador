@@ -133,7 +133,7 @@ describe("Totalizador", () => {
         .toEqual(20);
 
     });
-    
+
     it("Deberia aplicar 7% de impuesto adicional para Bebidas alcoholicas", () => {
 
     let totalizador = new Totalizador();
@@ -141,5 +141,13 @@ describe("Totalizador", () => {
     expect(totalizador.calcularImpuestoCategoria(1000, "Bebidas alcoholicas"))
         .toEqual(70);
 
-});
+    });
+    it("Deberia aplicar 1.5% de descuento adicional para Material de escritorio", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularDescuentoCategoria(1000, "Material de escritorio"))
+        .toEqual(15);
+
+    });
 });

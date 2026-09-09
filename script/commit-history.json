@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ff25f7410cfb4cb30c9fd41957f1a681ff26a01a",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T16:45:30.000Z",
       "message": "feat: aplicar impuesto adicional de Bebidas alcoholicas",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/ff25f7410cfb4cb30c9fd41957f1a681ff26a01a"
     },
     "stats": {
       "total": 30,
@@ -319,6 +319,25 @@
     },
     "coverage": 88.89,
     "test_count": 18,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T16:47:47.000Z",
+      "message": "feat: aplicar descuento adicional de Material de escritorio",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 14,
+      "deletions": 2,
+      "date": "2026-09-09"
+    },
+    "coverage": 89.47,
+    "test_count": 19,
     "failed_tests": 0,
     "conclusion": "success"
   }
