@@ -1150,9 +1150,23 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "38a42e6133b98de0df20709e43d7fc44c6c30621",
     "commitName": "test: verificar rechazo de cantidad negativa",
     "commitTimestamp": 1788995968178,
     "testId": 45
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 0,
+    "numTotalTests": 49,
+    "timestamp": 1788996003487,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: verificar rechazo de precio negativo",
+    "commitTimestamp": 1788996017171,
+    "testId": 46
   }
 ]

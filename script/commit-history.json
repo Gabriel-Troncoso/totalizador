@@ -855,12 +855,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "38a42e6133b98de0df20709e43d7fc44c6c30621",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T23:19:26.000Z",
       "message": "test: verificar rechazo de cantidad negativa",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/38a42e6133b98de0df20709e43d7fc44c6c30621"
     },
     "stats": {
       "total": 10,
@@ -870,6 +870,25 @@
     },
     "coverage": 96.4,
     "test_count": 48,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T23:20:14.000Z",
+      "message": "test: verificar rechazo de precio negativo",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 11,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 96.4,
+    "test_count": 49,
     "failed_tests": 0,
     "conclusion": "success"
   }

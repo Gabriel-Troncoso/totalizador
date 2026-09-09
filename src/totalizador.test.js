@@ -429,7 +429,7 @@ describe("Totalizador", () => {
     ).toEqual(0);
 
     });
-    
+
     it("Deberia rechazar una cantidad negativa", () => {
 
     let totalizador = new Totalizador();
@@ -439,4 +439,14 @@ describe("Totalizador", () => {
     ).toEqual("Cantidad invalida");
 
 });
+
+    it("Deberia rechazar un precio negativo", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(
+        totalizador.calcularPrecioBruto(2, -100)
+    ).toEqual("Precio invalido");
+
+    });
 });
