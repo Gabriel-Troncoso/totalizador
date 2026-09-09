@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ca8f878935e59a5fa830df7268d1fc52cb7ef8a1",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T16:47:47.000Z",
       "message": "feat: aplicar descuento adicional de Material de escritorio",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/ca8f878935e59a5fa830df7268d1fc52cb7ef8a1"
     },
     "stats": {
       "total": 16,
@@ -338,6 +338,25 @@
     },
     "coverage": 89.47,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T16:54:08.000Z",
+      "message": "feat: aplicar impuesto adicional de Muebles",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 90,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }

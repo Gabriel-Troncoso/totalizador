@@ -74,6 +74,9 @@ class Totalizador {
     if (categoria === "Bebidas alcoholicas") {
         return Number((total * 0.07).toFixed(2));
     }
+        if (categoria === "Muebles") {
+        return Number((total * 0.03).toFixed(2));
+    }
 
     return 0;
     }

@@ -150,4 +150,13 @@ describe("Totalizador", () => {
         .toEqual(15);
 
     });
+    
+    it("Deberia aplicar 3% de impuesto adicional para Muebles", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularImpuestoCategoria(1000, "Muebles"))
+        .toEqual(30);
+
+    });
 });
