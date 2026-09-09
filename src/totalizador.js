@@ -47,6 +47,9 @@ class Totalizador {
     if (estado === "TX") {
         return Number((total * 0.0625).toFixed(2));
     }
+    if (estado === "AL") {
+        return Number((total * 0.04).toFixed(2));
+    }
     return 0;
     
     }

@@ -98,4 +98,12 @@ describe("Totalizador", () => {
         .toEqual(62.5);
 
     });
+    it("Deberia aplicar 4% de impuesto para Alabama", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularImpuesto(1000, "AL"))
+        .toEqual(40);
+
+    });
 });

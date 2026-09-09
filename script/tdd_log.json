@@ -298,9 +298,31 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "372eb875b6358324bff26520aff73ad961e469f6",
     "commitName": "feat: aplicar impuesto de Texas",
     "commitTimestamp": 1788970773239,
     "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1788970882345,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1788970904073,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto de Alabama",
+    "commitTimestamp": 1788970914607,
+    "testId": 12
   }
 ]
