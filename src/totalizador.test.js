@@ -459,4 +459,18 @@ describe("Totalizador", () => {
     ).toEqual("Peso invalido");
 
     });
+
+    it("Deberia no aplicar descuento especial de 100 cuando el precio neto es exactamente 3000", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(
+        totalizador.calcularDescuentoEspecial(
+            3000,
+            "Recurrente",
+            "Alimentos"
+        )
+    ).toEqual(0);
+
+    });
 });

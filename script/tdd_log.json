@@ -1194,9 +1194,23 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "809477f388fa3ad45a7ad865b85a5fa56c668c9f",
     "commitName": "feat: propagar error de peso invalido en envio total",
     "commitTimestamp": 1788996106621,
     "testId": 47
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 0,
+    "numTotalTests": 51,
+    "timestamp": 1788996142926,
+    "success": true,
+    "testId": 48
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: verificar limite de descuento especial para cliente Recurrente",
+    "commitTimestamp": 1788996155926,
+    "testId": 48
   }
 ]
