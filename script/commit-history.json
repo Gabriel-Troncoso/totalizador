@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e6b4b68fc158fd2c1a307f9088ad732b09c366a0",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T20:37:57.000Z",
       "message": "feat: aplicar costo de envio de 5 para peso de 21 a 40",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/e6b4b68fc158fd2c1a307f9088ad732b09c366a0"
     },
     "stats": {
       "total": 12,
@@ -452,6 +452,25 @@
     },
     "coverage": 92.31,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T20:39:33.000Z",
+      "message": "feat: aplicar costo de envio de 6 para peso de 41 a 80",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.59,
+    "test_count": 27,
     "failed_tests": 0,
     "conclusion": "success"
   }
