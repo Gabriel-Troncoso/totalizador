@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T15:14:52.000Z",
+      "message": "feat: calcular precio bruto de la compra",
+      "url": "https://github.com/UCB-TallerDeDesarrollo/TDDLabBaseProject/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 22,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
