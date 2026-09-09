@@ -202,9 +202,31 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ef87d99bb209f3230504e2b7bf8179ddd944d7c8",
     "commitName": "feat: aplicar descuento de 15% desde 30000",
     "commitTimestamp": 1788969707472,
     "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1788970121068,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1788970143705,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto de California",
+    "commitTimestamp": 1788970158271,
+    "testId": 8
   }
 ]

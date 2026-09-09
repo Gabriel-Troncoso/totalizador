@@ -33,6 +33,14 @@ class Totalizador {
         return 0;
     }
     
+    calcularImpuesto(total, estado) {
+
+    if (estado === "CA") {
+        return Number((total * 0.0825).toFixed(2));
+    }
+
+    return 0;
+    }
 
 }
 

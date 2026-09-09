@@ -66,4 +66,12 @@ describe("Totalizador", () => {
         .toEqual(4500);
 
     });
+    it("Deberia aplicar 8.25% de impuesto para California", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularImpuesto(1000, "CA"))
+        .toEqual(82.5);
+
+    });
 });

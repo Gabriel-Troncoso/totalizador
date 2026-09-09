@@ -133,12 +133,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ef87d99bb209f3230504e2b7bf8179ddd944d7c8",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T16:01:46.000Z",
       "message": "feat: aplicar descuento de 15% desde 30000",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/ef87d99bb209f3230504e2b7bf8179ddd944d7c8"
     },
     "stats": {
       "total": 11,
@@ -148,6 +148,25 @@
     },
     "coverage": 94.12,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T16:09:17.000Z",
+      "message": "feat: aplicar impuesto de California",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 90,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
