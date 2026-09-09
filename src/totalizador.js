@@ -38,8 +38,11 @@ class Totalizador {
     if (estado === "CA") {
         return Number((total * 0.0825).toFixed(2));
     }
-
+    if (estado === "UT") {
+        return Number((total * 0.0665).toFixed(2));
+    }
     return 0;
+    
     }
 
 }

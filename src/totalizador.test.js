@@ -74,4 +74,12 @@ describe("Totalizador", () => {
         .toEqual(82.5);
 
     });
+    it("Deberia aplicar 6.65% de impuesto para Utah", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularImpuesto(1000, "UT"))
+        .toEqual(66.5);
+
+    });
 });

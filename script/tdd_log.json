@@ -224,9 +224,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4e316e6b290f78ec802ef91a99154729861bb791",
     "commitName": "feat: aplicar impuesto de California",
     "commitTimestamp": 1788970158271,
     "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788970183442,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788970214370,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto de Utah",
+    "commitTimestamp": 1788970227023,
+    "testId": 9
   }
 ]
