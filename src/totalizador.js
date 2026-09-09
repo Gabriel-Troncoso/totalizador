@@ -53,7 +53,18 @@ class Totalizador {
     return 0;
     
     }
+    calcularDescuentoCategoria(total, categoria = "Varios") {
 
+    if (categoria === "Alimentos") {
+        return Number((total * 0.02).toFixed(2));
+    }
+    if (categoria === "Varios") {
+        return 0;
+    }
+    
+
+    return 0;
+}
 }
 
 export default Totalizador;

@@ -106,12 +106,30 @@ describe("Totalizador", () => {
         .toEqual(40);
 
     });
+
     it("Deberia usar California como estado por defecto", () => {
 
     let totalizador = new Totalizador();
 
     expect(totalizador.calcularImpuesto(1000))
         .toEqual(82.5);
+
+    });
+
+    it("Deberia aplicar 0% de descuento adicional para Varios por defecto", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularDescuentoCategoria(1000))
+        .toEqual(0);
+
+    });
+    it("Deberia aplicar 2% de descuento adicional para Alimentos", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularDescuentoCategoria(1000, "Alimentos"))
+        .toEqual(20);
 
     });
 });

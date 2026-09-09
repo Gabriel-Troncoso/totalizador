@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "147559be454b6453485803a23f916e69cfb8fa24",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T16:24:15.000Z",
       "message": "feat: usar California como estado por defecto",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/147559be454b6453485803a23f916e69cfb8fa24"
     },
     "stats": {
       "total": 10,
@@ -262,6 +262,25 @@
     },
     "coverage": 92.86,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T16:37:57.000Z",
+      "message": "feat: usar Varios como categoria por defecto",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 29,
+      "additions": 29,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 90.91,
+    "test_count": 17,
     "failed_tests": 0,
     "conclusion": "success"
   }

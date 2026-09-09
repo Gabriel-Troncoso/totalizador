@@ -342,9 +342,55 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "147559be454b6453485803a23f916e69cfb8fa24",
     "commitName": "feat: usar California como estado por defecto",
     "commitTimestamp": 1788971056268,
     "testId": 13
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1788971604720,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1788971728890,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1788971747951,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1788971810172,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788971843744,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: usar Varios como categoria por defecto",
+    "commitTimestamp": 1788971878495,
+    "testId": 14
   }
 ]
