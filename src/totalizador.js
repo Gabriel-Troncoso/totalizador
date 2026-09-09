@@ -8,6 +8,10 @@ class Totalizador {
             return "Cantidad invalida";
         }
 
+        if (typeof precio !== "number") {
+            return "Precio invalido";
+        }
+
         if (precio <= 0) {
             return "Precio invalido";
         }

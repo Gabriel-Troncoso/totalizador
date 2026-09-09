@@ -798,12 +798,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b64140ed871712059aae162275bf660e2f1cd54d",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T23:04:36.000Z",
       "message": "feat: rechazar cantidad no numerica",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/b64140ed871712059aae162275bf660e2f1cd54d"
     },
     "stats": {
       "total": 16,
@@ -813,6 +813,25 @@
     },
     "coverage": 95.41,
     "test_count": 45,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T23:07:29.000Z",
+      "message": "feat: rechazar precio no numerico",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 95.5,
+    "test_count": 46,
     "failed_tests": 0,
     "conclusion": "success"
   }
