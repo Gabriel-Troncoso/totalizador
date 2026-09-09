@@ -964,9 +964,31 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b83418d6c8d039b2e8f69a31e7c3925cd2134c18",
     "commitName": "feat: calcular impuesto total por estado y categoria",
     "commitTimestamp": 1788994192740,
     "testId": 38
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 1,
+    "numTotalTests": 42,
+    "timestamp": 1788994419444,
+    "success": false,
+    "testId": 39
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1788994446405,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular total final de la compra",
+    "commitTimestamp": 1788994455177,
+    "testId": 39
   }
 ]

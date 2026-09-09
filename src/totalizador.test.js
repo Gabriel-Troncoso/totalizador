@@ -343,4 +343,14 @@ describe("Totalizador", () => {
     ).toEqual(122.5);
 
     });
+
+    it("Deberia calcular el total final de la compra", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(
+        totalizador.calcularTotalFinal(3720, 458.4, 15, 100)
+    ).toEqual(4093.4);
+
+    });
 });

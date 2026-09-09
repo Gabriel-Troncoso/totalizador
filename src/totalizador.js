@@ -193,6 +193,12 @@ class Totalizador {
         (impuestoEstado + impuestoCategoria).toFixed(2)
     );
 }
+    calcularTotalFinal(precioNeto, impuestoTotal, envioTotal, descuentoEspecial = 0) {
+
+    return Number(
+        (precioNeto + impuestoTotal + envioTotal - descuentoEspecial).toFixed(2)
+    );
+    }
 }
 
 export default Totalizador;

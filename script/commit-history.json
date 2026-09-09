@@ -722,12 +722,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b83418d6c8d039b2e8f69a31e7c3925cd2134c18",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T22:49:50.000Z",
       "message": "feat: calcular impuesto total por estado y categoria",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/b83418d6c8d039b2e8f69a31e7c3925cd2134c18"
     },
     "stats": {
       "total": 25,
@@ -737,6 +737,25 @@
     },
     "coverage": 93.02,
     "test_count": 41,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T22:54:13.000Z",
+      "message": "feat: calcular total final de la compra",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 16,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.1,
+    "test_count": 42,
     "failed_tests": 0,
     "conclusion": "success"
   }
