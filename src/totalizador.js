@@ -199,6 +199,48 @@ class Totalizador {
         (precioNeto + impuestoTotal + envioTotal - descuentoEspecial).toFixed(2)
     );
     }
+
+    calcularCompra(cantidad, precio, estado, categoria, peso, tipoCliente) {
+
+    let precioBruto =
+        this.calcularPrecioBruto(cantidad, precio);
+
+    let precioNeto =
+        this.calcularPrecioNeto(precioBruto, categoria);
+
+    let impuestoTotal =
+        this.calcularImpuestoTotal(
+            precioNeto,
+            estado,
+            categoria
+        );
+
+    let envioTotal =
+        this.calcularEnvioTotal(cantidad, peso);
+
+    let descuentoEnvio =
+        this.calcularDescuentoEnvio(
+            envioTotal,
+            tipoCliente
+        );
+
+    let envioFinal =
+        envioTotal - descuentoEnvio;
+
+    let descuentoEspecial =
+        this.calcularDescuentoEspecial(
+            precioNeto,
+            tipoCliente,
+            categoria
+        );
+
+    return this.calcularTotalFinal(
+        precioNeto,
+        impuestoTotal,
+        envioFinal,
+        descuentoEspecial
+    );
+    }
 }
 
 export default Totalizador;

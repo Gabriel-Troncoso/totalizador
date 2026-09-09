@@ -986,9 +986,55 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "da2d144ca9aadcef994be1f9d8087388e8c427e2",
     "commitName": "feat: calcular total final de la compra",
     "commitTimestamp": 1788994455177,
     "testId": 39
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 0,
+    "numTotalTests": 42,
+    "timestamp": 1788994620220,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 1,
+    "numTotalTests": 43,
+    "timestamp": 1788994632523,
+    "success": false,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 1,
+    "numTotalTests": 43,
+    "timestamp": 1788994662102,
+    "success": false,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 42,
+    "failedTests": 1,
+    "numTotalTests": 43,
+    "timestamp": 1788994676407,
+    "success": false,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 0,
+    "numTotalTests": 43,
+    "timestamp": 1788994869837,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: integrar calculo completo de la compra",
+    "commitTimestamp": 1788994889207,
+    "testId": 40
   }
 ]

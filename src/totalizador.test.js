@@ -353,4 +353,21 @@ describe("Totalizador", () => {
     ).toEqual(4093.4);
 
     });
+
+    it("Deberia calcular el total completo de una compra", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(
+        totalizador.calcularCompra(
+            10,              
+            400,              
+            "CA",            
+            "Alimentos",     
+            30,               
+            "Recurrente"      
+        )
+    ).toEqual(3976.65);
+
+    });
 });

@@ -741,12 +741,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "da2d144ca9aadcef994be1f9d8087388e8c427e2",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T22:54:13.000Z",
       "message": "feat: calcular total final de la compra",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/da2d144ca9aadcef994be1f9d8087388e8c427e2"
     },
     "stats": {
       "total": 16,
@@ -756,6 +756,25 @@
     },
     "coverage": 93.1,
     "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T23:01:25.000Z",
+      "message": "feat: integrar calculo completo de la compra",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 59,
+      "additions": 59,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 94.74,
+    "test_count": 43,
     "failed_tests": 0,
     "conclusion": "success"
   }
