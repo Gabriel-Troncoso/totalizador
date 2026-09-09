@@ -320,9 +320,31 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8ef05bf9cce3515f1e1513d2d604ea66f40ac8df",
     "commitName": "feat: aplicar impuesto de Alabama",
     "commitTimestamp": 1788970914607,
     "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1788971015081,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1788971030701,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: usar California como estado por defecto",
+    "commitTimestamp": 1788971056268,
+    "testId": 13
   }
 ]

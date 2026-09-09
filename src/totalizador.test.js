@@ -106,4 +106,12 @@ describe("Totalizador", () => {
         .toEqual(40);
 
     });
+    it("Deberia usar California como estado por defecto", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularImpuesto(1000))
+        .toEqual(82.5);
+
+    });
 });

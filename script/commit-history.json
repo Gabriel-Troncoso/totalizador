@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8ef05bf9cce3515f1e1513d2d604ea66f40ac8df",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T16:21:53.000Z",
       "message": "feat: aplicar impuesto de Alabama",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/8ef05bf9cce3515f1e1513d2d604ea66f40ac8df"
     },
     "stats": {
       "total": 11,
@@ -243,6 +243,25 @@
     },
     "coverage": 92.86,
     "test_count": 14,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T16:24:15.000Z",
+      "message": "feat: usar California como estado por defecto",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 9,
+      "deletions": 1,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.86,
+    "test_count": 15,
     "failed_tests": 0,
     "conclusion": "success"
   }
