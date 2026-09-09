@@ -82,4 +82,12 @@ describe("Totalizador", () => {
         .toEqual(66.5);
 
     });
+    it("Deberia aplicar 8% de impuesto para Nevada", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularImpuesto(1000, "NV"))
+        .toEqual(80);
+
+    });
 });

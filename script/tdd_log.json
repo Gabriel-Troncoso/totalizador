@@ -246,9 +246,31 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "03fcfa1b899bae4887fe272dd40f32a4511a1bd4",
     "commitName": "feat: aplicar impuesto de Utah",
     "commitTimestamp": 1788970227023,
     "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1788970263104,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1788970282196,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar impuesto de Nevada",
+    "commitTimestamp": 1788970291097,
+    "testId": 10
   }
 ]

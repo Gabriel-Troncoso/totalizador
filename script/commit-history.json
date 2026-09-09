@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "03fcfa1b899bae4887fe272dd40f32a4511a1bd4",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T16:10:26.000Z",
       "message": "feat: aplicar impuesto de Utah",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/03fcfa1b899bae4887fe272dd40f32a4511a1bd4"
     },
     "stats": {
       "total": 13,
@@ -186,6 +186,25 @@
     },
     "coverage": 90.91,
     "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T16:11:30.000Z",
+      "message": "feat: aplicar impuesto de Nevada",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 91.67,
+    "test_count": 12,
     "failed_tests": 0,
     "conclusion": "success"
   }
