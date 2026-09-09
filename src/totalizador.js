@@ -129,10 +129,14 @@ class Totalizador {
 
     calcularDescuentoEnvio(costoEnvio, tipoCliente = "Normal") {
 
+    if (tipoCliente === "Antiguo Recurrente") {
+        return Number((costoEnvio * 0.01).toFixed(2));
+    }
+    
     if (tipoCliente === "Recurrente") {
         return Number((costoEnvio * 0.005).toFixed(2));
     }
-    
+
     if (tipoCliente === "Normal") {
         return 0;
     }

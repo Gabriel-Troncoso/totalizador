@@ -287,4 +287,12 @@ describe("Totalizador", () => {
         .toEqual(0.5);
 
     });
+    it("Deberia aplicar 1% de descuento en envio para cliente Antiguo Recurrente", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularDescuentoEnvio(100, "Antiguo Recurrente"))
+        .toEqual(1);
+
+    });
 });
