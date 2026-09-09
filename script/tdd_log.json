@@ -788,9 +788,31 @@
     "testId": 30
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d2cc315c8c61327e6aaa552f47bb4f950ded597c",
     "commitName": "feat: rechazar peso volumetrico no numerico",
     "commitTimestamp": 1788992906605,
     "testId": 30
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 1,
+    "numTotalTests": 34,
+    "timestamp": 1788993083350,
+    "success": false,
+    "testId": 31
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 0,
+    "numTotalTests": 34,
+    "timestamp": 1788993110583,
+    "success": true,
+    "testId": 31
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: usar cliente Normal por defecto en descuento de envio",
+    "commitTimestamp": 1788993118966,
+    "testId": 31
   }
 ]

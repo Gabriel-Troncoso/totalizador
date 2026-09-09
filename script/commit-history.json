@@ -570,12 +570,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "d2cc315c8c61327e6aaa552f47bb4f950ded597c",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T22:28:24.000Z",
       "message": "feat: rechazar peso volumetrico no numerico",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/d2cc315c8c61327e6aaa552f47bb4f950ded597c"
     },
     "stats": {
       "total": 14,
@@ -585,6 +585,25 @@
     },
     "coverage": 93.94,
     "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T22:31:56.000Z",
+      "message": "feat: usar cliente Normal por defecto en descuento de envio",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 18,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 92.75,
+    "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
   }

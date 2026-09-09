@@ -269,4 +269,13 @@ describe("Totalizador", () => {
         .toEqual("Peso invalido");
 
     });
+
+    it("Deberia aplicar 0% de descuento en envio para cliente Normal por defecto", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularDescuentoEnvio(100))
+        .toEqual(0);
+
+    });
 });

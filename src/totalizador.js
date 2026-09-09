@@ -126,6 +126,15 @@ class Totalizador {
 
     return cantidad * costoPorUnidad;
     }
+    
+    calcularDescuentoEnvio(costoEnvio, tipoCliente = "Normal") {
+
+    if (tipoCliente === "Normal") {
+        return 0;
+    }
+
+    return 0;
+    }
 }
 
 export default Totalizador;
