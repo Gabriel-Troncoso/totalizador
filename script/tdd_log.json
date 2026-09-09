@@ -648,9 +648,31 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "689e4ae0ed6a985de5f3276dc4a8f90f18d7f50e",
     "commitName": "feat: aplicar costo de envio de 6 para peso de 41 a 80",
     "commitTimestamp": 1788986375503,
     "testId": 24
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1788986489843,
+    "success": false,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1788986504976,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar costo de envio de 6.5 para peso de 81 a 100",
+    "commitTimestamp": 1788986512768,
+    "testId": 25
   }
 ]

@@ -103,7 +103,9 @@ class Totalizador {
     if (peso >= 41 && peso <= 80) {
         return 6;
     }
-
+    if (peso >= 81 && peso <= 100) {
+        return 6.5;
+    }
     }
 }
 
