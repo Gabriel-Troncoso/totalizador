@@ -131,5 +131,5 @@ describe("Totalizador", () => {
     expect(totalizador.calcularDescuentoCategoria(1000, "Alimentos"))
         .toEqual(20);
 
-    });
+});
 });

@@ -388,9 +388,63 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f957b4a68013e4fa5f9b891f74c0173097e01f5c",
     "commitName": "feat: usar Varios como categoria por defecto",
     "commitTimestamp": 1788971878495,
     "testId": 14
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788971900151,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788971937218,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788971951657,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788972035009,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1788972078793,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788972097967,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento adicional de Alimentos",
+    "commitTimestamp": 1788972112116,
+    "testId": 15
   }
 ]
