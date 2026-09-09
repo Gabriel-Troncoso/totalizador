@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "4f0c05e6a7003a8630e99e463d9a5ecba2e9b4f9",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T20:45:38.000Z",
       "message": "feat: aplicar costo de envio de 9 para peso mayor a 200",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/4f0c05e6a7003a8630e99e463d9a5ecba2e9b4f9"
     },
     "stats": {
       "total": 12,
@@ -528,6 +528,25 @@
     },
     "coverage": 93.33,
     "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T22:25:05.000Z",
+      "message": "feat: calcular costo total de envio segun cantidad",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 93.55,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }

@@ -113,7 +113,13 @@ class Totalizador {
         return 9;
     }
     }
+    
+    calcularEnvioTotal(cantidad, peso) {
 
+    let costoPorUnidad = this.calcularCostoEnvio(peso);
+
+    return cantidad * costoPorUnidad;
+    }
 }
 
 export default Totalizador;

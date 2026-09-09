@@ -714,9 +714,39 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4f0c05e6a7003a8630e99e463d9a5ecba2e9b4f9",
     "commitName": "feat: aplicar costo de envio de 9 para peso mayor a 200",
     "commitTimestamp": 1788986741187,
     "testId": 27
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1788992635352,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1788992661609,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1788992695097,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular costo total de envio segun cantidad",
+    "commitTimestamp": 1788992707529,
+    "testId": 28
   }
 ]

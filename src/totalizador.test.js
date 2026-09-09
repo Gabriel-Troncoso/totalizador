@@ -242,4 +242,13 @@ describe("Totalizador", () => {
         .toEqual(9);
 
     });
+    
+    it("Deberia calcular el costo total de envio segun la cantidad", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularEnvioTotal(3, 30))
+        .toEqual(15);
+
+    });
 });
