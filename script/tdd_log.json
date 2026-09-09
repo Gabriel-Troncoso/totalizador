@@ -508,9 +508,39 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "01aa03f904df8eeb6249fc303a7d1f652cbceb63",
     "commitName": "feat: aplicar impuesto adicional de Muebles",
     "commitTimestamp": 1788972849565,
     "testId": 18
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1788973344382,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 2,
+    "numTotalTests": 22,
+    "timestamp": 1788973441300,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788973505300,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar beneficios adicionales de Electronicos",
+    "commitTimestamp": 1788973516099,
+    "testId": 19
   }
 ]

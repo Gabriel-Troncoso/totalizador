@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "01aa03f904df8eeb6249fc303a7d1f652cbceb63",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T16:54:08.000Z",
       "message": "feat: aplicar impuesto adicional de Muebles",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/01aa03f904df8eeb6249fc303a7d1f652cbceb63"
     },
     "stats": {
       "total": 12,
@@ -357,6 +357,25 @@
     },
     "coverage": 90,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-09T17:05:15.000Z",
+      "message": "feat: aplicar beneficios adicionales de Electronicos",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 24,
+      "deletions": 2,
+      "date": "2026-09-09"
+    },
+    "coverage": 90.91,
+    "test_count": 22,
     "failed_tests": 0,
     "conclusion": "success"
   }

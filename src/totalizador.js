@@ -62,6 +62,9 @@ class Totalizador {
         if (categoria === "Material de escritorio") {
             return Number((total * 0.015).toFixed(2));
         }
+        if (categoria === "Electronicos") {
+            return Number((total * 0.01).toFixed(2));
+        }
 
         if (categoria === "Varios") {
             return 0;
@@ -74,8 +77,11 @@ class Totalizador {
     if (categoria === "Bebidas alcoholicas") {
         return Number((total * 0.07).toFixed(2));
     }
-        if (categoria === "Muebles") {
+    if (categoria === "Muebles") {
         return Number((total * 0.03).toFixed(2));
+    }
+    if (categoria === "Electronicos") {
+        return Number((total * 0.04).toFixed(2));
     }
 
     return 0;

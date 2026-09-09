@@ -150,13 +150,29 @@ describe("Totalizador", () => {
         .toEqual(15);
 
     });
-    
+
     it("Deberia aplicar 3% de impuesto adicional para Muebles", () => {
 
     let totalizador = new Totalizador();
 
     expect(totalizador.calcularImpuestoCategoria(1000, "Muebles"))
         .toEqual(30);
+
+    });
+    it("Deberia aplicar 4% de impuesto adicional para Electronicos", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularImpuestoCategoria(1000, "Electronicos"))
+        .toEqual(40);
+
+    });
+    it("Deberia aplicar 1% de descuento adicional para Electronicos", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularDescuentoCategoria(1000, "Electronicos"))
+        .toEqual(10);
 
     });
 });
