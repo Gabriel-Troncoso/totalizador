@@ -50,4 +50,12 @@ describe("Totalizador", () => {
         .toEqual(490);
 
     });
+    it("Deberia aplicar 10% de descuento cuando el precio bruto es 10000", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularDescuento(10000))
+        .toEqual(1000);
+
+    });
 });
