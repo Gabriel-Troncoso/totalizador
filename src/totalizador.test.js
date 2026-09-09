@@ -90,4 +90,12 @@ describe("Totalizador", () => {
         .toEqual(80);
 
     });
+    it("Deberia aplicar 6.25% de impuesto para Texas", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularImpuesto(1000, "TX"))
+        .toEqual(62.5);
+
+    });
 });
