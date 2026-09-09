@@ -234,4 +234,12 @@ describe("Totalizador", () => {
         .toEqual(8);
 
     });
+    it("Deberia aplicar costo de envio 9 para peso mayor a 200", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularCostoEnvio(250))
+        .toEqual(9);
+
+    });
 });

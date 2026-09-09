@@ -109,7 +109,11 @@ class Totalizador {
     if (peso >= 101 && peso <= 200) {
         return 8;
     }
+    if (peso > 200) {
+        return 9;
     }
+    }
+
 }
 
 export default Totalizador;
