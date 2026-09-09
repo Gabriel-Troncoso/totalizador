@@ -68,9 +68,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "dc81840876bdf2bfba47a620b8c601bc64b6cce3",
     "commitName": "feat: validar precio invalido",
     "commitTimestamp": 1788968435687,
     "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 1,
+    "numTotalTests": 5,
+    "timestamp": 1788968808749,
+    "success": false,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788968845249,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: aplicar descuento de 3% desde 1000",
+    "commitTimestamp": 1788968856370,
+    "testId": 3
   }
 ]
