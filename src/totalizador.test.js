@@ -17,5 +17,13 @@ describe("Totalizador", () => {
     expect(totalizador.calcularPrecioBruto(0, 100))
         .toEqual("Cantidad invalida");
 
-});
+    });
+    it("Deberia mostrar error cuando el precio es cero", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularPrecioBruto(2, 0))
+        .toEqual("Precio invalido");
+
+    });
 });
