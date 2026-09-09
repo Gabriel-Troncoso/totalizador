@@ -295,4 +295,13 @@ describe("Totalizador", () => {
         .toEqual(1);
 
     });
+
+    it("Deberia aplicar 1.5% de descuento en envio para cliente Especial", () => {
+
+    let totalizador = new Totalizador();
+
+    expect(totalizador.calcularDescuentoEnvio(100, "Especial"))
+        .toEqual(1.5);
+
+    });
 });
