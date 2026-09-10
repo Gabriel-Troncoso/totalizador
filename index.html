@@ -1,17 +1,73 @@
 <!DOCTYPE html>
 <html xml:lang="es">
   <head>
-    <title>Sumador</title>
+    <title>Totalizador de Venta</title>
   </head>
+
   <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
+    <h1>Totalizador de Venta</h1>
+
+    <form id="totalizador-form">
+
+      <label for="cantidad">Cantidad de items:</label>
+      <input type="number" id="cantidad" />
+
+      <br /><br />
+
+      <label for="precio">Precio por item:</label>
+      <input type="number" id="precio" step="0.01" />
+
+      <br /><br />
+
+      <label for="estado">Estado:</label>
+      <select id="estado">
+        <option value="CA" selected>California</option>
+        <option value="UT">Utah</option>
+        <option value="NV">Nevada</option>
+        <option value="TX">Texas</option>
+        <option value="AL">Alabama</option>
+      </select>
+
+      <br /><br />
+
+      <label for="categoria">Categoria:</label>
+      <select id="categoria">
+        <option value="Varios" selected>Varios</option>
+        <option value="Alimentos">Alimentos</option>
+        <option value="Bebidas alcoholicas">Bebidas alcoholicas</option>
+        <option value="Material de escritorio">Material de escritorio</option>
+        <option value="Muebles">Muebles</option>
+        <option value="Electronicos">Electronicos</option>
+        <option value="Vestimenta">Vestimenta</option>
+      </select>
+
+      <br /><br />
+
+      <label for="peso">Peso volumetrico por unidad:</label>
+      <input type="number" id="peso" step="0.01" />
+
+      <br /><br />
+
+      <label for="tipo-cliente">Tipo de cliente:</label>
+      <select id="tipo-cliente">
+        <option value="Normal" selected>Normal</option>
+        <option value="Recurrente">Recurrente</option>
+        <option value="Antiguo Recurrente">Antiguo Recurrente</option>
+        <option value="Especial">Especial</option>
+      </select>
+
+      <br /><br />
+
+      <input
+        type="submit"
+        value="Calcular total"
+        id="calcular-button"
+      />
+
     </form>
+
+    <h2>Resultado</h2>
+
     <div id="resultado-div"></div>
 
     <script type="module" src="./src/presenter.js"></script>

@@ -1208,9 +1208,39 @@
     "testId": 48
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6c630a64d8ed7b8ac624ea38d208d1d500c083f8",
     "commitName": "test: verificar limite de descuento especial para cliente Recurrente",
     "commitTimestamp": 1788996155926,
     "testId": 48
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 0,
+    "numTotalTests": 51,
+    "timestamp": 1788997940711,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 0,
+    "numTotalTests": 51,
+    "timestamp": 1788998667628,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 0,
+    "numTotalTests": 51,
+    "timestamp": 1788999078493,
+    "success": true,
+    "testId": 49
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: agregar html e interfaz",
+    "commitTimestamp": 1788999849327,
+    "testId": 49
   }
 ]

@@ -912,18 +912,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6c630a64d8ed7b8ac624ea38d208d1d500c083f8",
     "author": "Gabriel Troncaso",
     "commit": {
       "date": "2026-09-09T23:22:33.000Z",
       "message": "test: verificar limite de descuento especial para cliente Recurrente",
-      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/6c630a64d8ed7b8ac624ea38d208d1d500c083f8"
     },
     "stats": {
       "total": 14,
       "additions": 14,
       "deletions": 0,
       "date": "2026-09-09"
+    },
+    "coverage": 97.35,
+    "test_count": 51,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Gabriel Troncaso",
+    "commit": {
+      "date": "2026-09-10T00:24:06.000Z",
+      "message": "feat: agregar html e interfaz",
+      "url": "https://github.com/Gabriel-Troncoso/totalizador/commit/HEAD"
+    },
+    "stats": {
+      "total": 124,
+      "additions": 106,
+      "deletions": 18,
+      "date": "2026-09-10"
     },
     "coverage": 97.35,
     "test_count": 51,
